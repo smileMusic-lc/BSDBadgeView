@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BSDBadgeView_Example' do
+  pod 'BSDBadgeView', :path => '../'
+
+  target 'BSDBadgeView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

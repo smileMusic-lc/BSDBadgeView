@@ -37,7 +37,7 @@
 {
     self.layer.masksToBounds = YES;
     self.layer.cornerRadius = 7.5;
-    self.backgroundColor = [UIColor colorWithHexString:@"FC3252"];
+    self.backgroundColor = [UIColor colorWithRed:99/255.0 green:20/255.0 blue:32/255.0 alpha:1];
     self.flexMode = BSDBadgeViewFlexModeMiddle;
     self.layer.borderColor = UIColor.whiteColor.CGColor;
     self.layer.borderWidth = 1;

@@ -31,7 +31,7 @@ static NSString *const kBadgeView = @"kBadgeView";
     }else{
        self.badgeView.text = text;
        [self bsd_setBadgeHeight:16];
-       self.badgeView.backgroundColor =  [UIColor colorWithHexString:@"FC3252"];
+       self.badgeView.backgroundColor =  [UIColor colorWithRed:99/255.0 green:20/255.0 blue:32/255.0 alpha:1];
     }
     [self bsd_setBadgeFlexMode:self.badgeView.flexMode];
     if (text) {
