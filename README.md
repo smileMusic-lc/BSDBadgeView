@@ -18,10 +18,6 @@ it, simply add the following line to your Podfile:
 pod 'BSDBadgeView'
 ```
 
-## Author
-
-梁策, liancge@xiaoxiangyoupin.cn
-
 ## License
 
 BSDBadgeView is available under the MIT license. See the LICENSE file for more info.
